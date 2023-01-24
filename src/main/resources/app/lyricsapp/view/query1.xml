@@ -1,0 +1,253 @@
+<ArrayOfSearchLyricResult xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://api.chartlyrics.com/">
+<TrackId>0</TrackId>
+<SearchLyricResult>
+<LyricChecksum>1d1971e584894ba408b08d32cfdcedb7</LyricChecksum>
+<LyricId>389</LyricId>
+<SongUrl>http://www.chartlyrics.com/nz21F2NcCUqlk93kYI4NuQ/Sunny+Afternoon.aspx</SongUrl>
+<ArtistUrl>http://www.chartlyrics.com/nz21F2NcCUqlk93kYI4NuQ.aspx</ArtistUrl>
+<Artist>The Kinks</Artist>
+<Song>Sunny Afternoon</Song>
+<SongRank>9</SongRank>
+</SearchLyricResult>
+<SearchLyricResult>
+<TrackId>0</TrackId>
+<LyricChecksum>123619e7c2267f7dbe43bd2683dd3e01</LyricChecksum>
+<LyricId>379</LyricId>
+<SongUrl>http://www.chartlyrics.com/wEX0-64RPk2vGsbieD5EfA/We+Built+This+City.aspx</SongUrl>
+<ArtistUrl>http://www.chartlyrics.com/wEX0-64RPk2vGsbieD5EfA.aspx</ArtistUrl>
+<Artist>Starship</Artist>
+<Song>We Built This City</Song>
+<SongRank>9</SongRank>
+</SearchLyricResult>
+<SearchLyricResult>
+<TrackId>0</TrackId>
+<LyricChecksum>56ccddb95d1d0f1451dba53326b6a57b</LyricChecksum>
+<LyricId>1304</LyricId>
+<SongUrl>http://www.chartlyrics.com/xVJ-2I27qE25QZ9JKGJ9yA/Money%2c+Money%2c+Money.aspx</SongUrl>
+<ArtistUrl>http://www.chartlyrics.com/xVJ-2I27qE25QZ9JKGJ9yA.aspx</ArtistUrl>
+<Artist>ABBA</Artist>
+<Song>Money, Money, Money</Song>
+<SongRank>9</SongRank>
+</SearchLyricResult>
+<SearchLyricResult>
+<TrackId>0</TrackId>
+<LyricChecksum>6cad644942765c54d86bb086a186e03f</LyricChecksum>
+<LyricId>555</LyricId>
+<SongUrl>http://www.chartlyrics.com/zqq0FSZhKkCW-BMalDziDg/Tarzan+Boy.aspx</SongUrl>
+<ArtistUrl>http://www.chartlyrics.com/zqq0FSZhKkCW-BMalDziDg.aspx</ArtistUrl>
+<Artist>Baltimora</Artist>
+<Song>Tarzan Boy</Song>
+<SongRank>9</SongRank>
+</SearchLyricResult>
+<SearchLyricResult>
+<TrackId>0</TrackId>
+<LyricChecksum>0106de786c87f59e6a9f3e15d31d5661</LyricChecksum>
+<LyricId>3331</LyricId>
+<SongUrl>http://www.chartlyrics.com/7T4iHziq2kmedmKrOtwuBA/Mack+the+Knife.aspx</SongUrl>
+<ArtistUrl>http://www.chartlyrics.com/7T4iHziq2kmedmKrOtwuBA.aspx</ArtistUrl>
+<Artist>Bobby Darin</Artist>
+<Song>Mack the Knife</Song>
+<SongRank>9</SongRank>
+</SearchLyricResult>
+<SearchLyricResult>
+<TrackId>0</TrackId>
+<LyricChecksum>4f3a12da3da55d42cdeaf8e5a8a6e9e7</LyricChecksum>
+<LyricId>3836</LyricId>
+<SongUrl>http://www.chartlyrics.com/mBjZg2N310ewO7khMjdcRw/Vera.aspx</SongUrl>
+<ArtistUrl>http://www.chartlyrics.com/mBjZg2N310ewO7khMjdcRw.aspx</ArtistUrl>
+<Artist>Pink Floyd</Artist>
+<Song>Vera</Song>
+<SongRank>9</SongRank>
+</SearchLyricResult>
+<SearchLyricResult>
+<TrackId>0</TrackId>
+<LyricChecksum>d8c56cf54f9a70a1bcfca4deb6e85ea6</LyricChecksum>
+<LyricId>4636</LyricId>
+<SongUrl>http://www.chartlyrics.com/UpWAAYdPsEWv_yxvBzCjvg/Are+You+Lonesome+Tonight.aspx</SongUrl>
+<ArtistUrl>http://www.chartlyrics.com/UpWAAYdPsEWv_yxvBzCjvg.aspx</ArtistUrl>
+<Artist>Elvis Presley</Artist>
+<Song>Are You Lonesome Tonight</Song>
+<SongRank>9</SongRank>
+</SearchLyricResult>
+<SearchLyricResult>
+<TrackId>0</TrackId>
+<LyricChecksum>f78c0e95b85d93d7a0c77470137e4caf</LyricChecksum>
+<LyricId>1355</LyricId>
+<SongUrl>http://www.chartlyrics.com/61iZEDWjXkyQfll_9MavRg/Have+You+Ever+Seen+the+Rain.aspx</SongUrl>
+<ArtistUrl>http://www.chartlyrics.com/61iZEDWjXkyQfll_9MavRg.aspx</ArtistUrl>
+<Artist>Creedence Clearwater Revival</Artist>
+<Song>Have You Ever Seen the Rain</Song>
+<SongRank>9</SongRank>
+</SearchLyricResult>
+<SearchLyricResult>
+<TrackId>0</TrackId>
+<LyricChecksum>baae4bc820e0247a2fc8aa4328ecb7a9</LyricChecksum>
+<LyricId>2322</LyricId>
+<SongUrl>http://www.chartlyrics.com/Igx9EFHQmE2CBk4U3gITKg/Fire+and+Rain.aspx</SongUrl>
+<ArtistUrl>http://www.chartlyrics.com/Igx9EFHQmE2CBk4U3gITKg.aspx</ArtistUrl>
+<Artist>James Taylor</Artist>
+<Song>Fire and Rain</Song>
+<SongRank>9</SongRank>
+</SearchLyricResult>
+<SearchLyricResult>
+<TrackId>0</TrackId>
+<LyricChecksum>cb11e0dd552f439888d33ca73e4819b1</LyricChecksum>
+<LyricId>1975</LyricId>
+<SongUrl>http://www.chartlyrics.com/Te1ExZAjQkSoPh6iiDsJyA/Simple+Man.aspx</SongUrl>
+<ArtistUrl>http://www.chartlyrics.com/Te1ExZAjQkSoPh6iiDsJyA.aspx</ArtistUrl>
+<Artist>Lynyrd Skynyrd</Artist>
+<Song>Simple Man</Song>
+<SongRank>9</SongRank>
+</SearchLyricResult>
+<SearchLyricResult>
+<TrackId>0</TrackId>
+<LyricChecksum>99d531933126bca8a790421813b9ca47</LyricChecksum>
+<LyricId>3643</LyricId>
+<SongUrl>http://www.chartlyrics.com/FAN5mVqIdUmGFJxbyJA2TQ/Waterfalls.aspx</SongUrl>
+<ArtistUrl>http://www.chartlyrics.com/FAN5mVqIdUmGFJxbyJA2TQ.aspx</ArtistUrl>
+<Artist>TLC</Artist>
+<Song>Waterfalls</Song>
+<SongRank>9</SongRank>
+</SearchLyricResult>
+<SearchLyricResult>
+<TrackId>0</TrackId>
+<LyricChecksum>a696db7f6ea5a824807ad1ccec32b9e2</LyricChecksum>
+<LyricId>2471</LyricId>
+<SongUrl>http://www.chartlyrics.com/br8DVB28Yk6zH5JqK_ZqFA/Sunny.aspx</SongUrl>
+<ArtistUrl>http://www.chartlyrics.com/br8DVB28Yk6zH5JqK_ZqFA.aspx</ArtistUrl>
+<Artist>Boney M.</Artist>
+<Song>Sunny</Song>
+<SongRank>9</SongRank>
+</SearchLyricResult>
+<SearchLyricResult>
+<TrackId>0</TrackId>
+<LyricChecksum>e58542c81935242d0c2801a501055a0b</LyricChecksum>
+<LyricId>2104</LyricId>
+<SongUrl>http://www.chartlyrics.com/BDmFuiWuu06J1sRM-9cb0g/Girls+%26+Boys.aspx</SongUrl>
+<ArtistUrl>http://www.chartlyrics.com/BDmFuiWuu06J1sRM-9cb0g.aspx</ArtistUrl>
+<Artist>Blur</Artist>
+<Song>Girls &amp; Boys</Song>
+<SongRank>9</SongRank>
+</SearchLyricResult>
+<SearchLyricResult>
+<TrackId>0</TrackId>
+<LyricChecksum>b71e2bfc319325656804fb063bda573b</LyricChecksum>
+<LyricId>2280</LyricId>
+<SongUrl>http://www.chartlyrics.com/39qDA04qEE2kaungQdqOsw/%2739.aspx</SongUrl>
+<ArtistUrl>http://www.chartlyrics.com/39qDA04qEE2kaungQdqOsw.aspx</ArtistUrl>
+<Artist>Queen</Artist>
+<Song>'39</Song>
+<SongRank>9</SongRank>
+</SearchLyricResult>
+<SearchLyricResult>
+<TrackId>0</TrackId>
+<LyricChecksum>0aed6f0238e8235ca6d0d5b15fc73a9a</LyricChecksum>
+<LyricId>1544</LyricId>
+<SongUrl>http://www.chartlyrics.com/_LsLsZ7P4EK-F-LD4dJgDQ/Sexy+Sadie.aspx</SongUrl>
+<ArtistUrl>http://www.chartlyrics.com/_LsLsZ7P4EK-F-LD4dJgDQ.aspx</ArtistUrl>
+<Artist>The Beatles</Artist>
+<Song>Sexy Sadie</Song>
+<SongRank>9</SongRank>
+</SearchLyricResult>
+<SearchLyricResult>
+<TrackId>0</TrackId>
+<LyricChecksum>81d794b5a0ba2c05cd927a75f6142bfa</LyricChecksum>
+<LyricId>4155</LyricId>
+<SongUrl>http://www.chartlyrics.com/VBhRCxzC8UqcMeP8F43tYQ/Hello+Mary+Lou.aspx</SongUrl>
+<ArtistUrl>http://www.chartlyrics.com/VBhRCxzC8UqcMeP8F43tYQ.aspx</ArtistUrl>
+<Artist>Ricky Nelson</Artist>
+<Song>Hello Mary Lou</Song>
+<SongRank>9</SongRank>
+</SearchLyricResult>
+<SearchLyricResult>
+<TrackId>0</TrackId>
+<LyricChecksum>65d45ead53e4c8398b6cdb043263c456</LyricChecksum>
+<LyricId>5780</LyricId>
+<SongUrl>http://www.chartlyrics.com/58u5g1eY4kmrjrV7AQOBAw/Nothing+as+It+Seems.aspx</SongUrl>
+<ArtistUrl>http://www.chartlyrics.com/58u5g1eY4kmrjrV7AQOBAw.aspx</ArtistUrl>
+<Artist>Pearl Jam</Artist>
+<Song>Nothing as It Seems</Song>
+<SongRank>9</SongRank>
+</SearchLyricResult>
+<SearchLyricResult>
+<TrackId>0</TrackId>
+<LyricChecksum>ddc89fbf2ee261707e65658c189bfb64</LyricChecksum>
+<LyricId>2337</LyricId>
+<SongUrl>http://www.chartlyrics.com/ayrzkRH8tkWiQ03ZDq7ngQ/Everything+About+You.aspx</SongUrl>
+<ArtistUrl>http://www.chartlyrics.com/ayrzkRH8tkWiQ03ZDq7ngQ.aspx</ArtistUrl>
+<Artist>Ugly Kid Joe</Artist>
+<Song>Everything About You</Song>
+<SongRank>9</SongRank>
+</SearchLyricResult>
+<SearchLyricResult>
+<TrackId>0</TrackId>
+<LyricChecksum>558b2edab2d92a622abd6cdf04cea433</LyricChecksum>
+<LyricId>785</LyricId>
+<SongUrl>http://www.chartlyrics.com/61iZEDWjXkyQfll_9MavRg/Have+You+Ever+Seen+the+Rain%3f.aspx</SongUrl>
+<ArtistUrl>http://www.chartlyrics.com/61iZEDWjXkyQfll_9MavRg.aspx</ArtistUrl>
+<Artist>Creedence Clearwater Revival</Artist>
+<Song>Have You Ever Seen the Rain?</Song>
+<SongRank>9</SongRank>
+</SearchLyricResult>
+<SearchLyricResult>
+<TrackId>0</TrackId>
+<LyricChecksum>4ba12a522f9b6a94ca13d0d58009574d</LyricChecksum>
+<LyricId>793</LyricId>
+<SongUrl>http://www.chartlyrics.com/mBP865aN40eCw_eCq82xPQ/Heroes+and+Villains.aspx</SongUrl>
+<ArtistUrl>http://www.chartlyrics.com/mBP865aN40eCw_eCq82xPQ.aspx</ArtistUrl>
+<Artist>The Beach Boys</Artist>
+<Song>Heroes and Villains</Song>
+<SongRank>9</SongRank>
+</SearchLyricResult>
+<SearchLyricResult>
+<TrackId>0</TrackId>
+<LyricChecksum>4e97ee3fb451ef0b45e59396d831dc02</LyricChecksum>
+<LyricId>5224</LyricId>
+<SongUrl>http://www.chartlyrics.com/WKGNDZ04WEumLqa1hw_DpA/Right+Back+Where+We+Started+From.aspx</SongUrl>
+<ArtistUrl>http://www.chartlyrics.com/WKGNDZ04WEumLqa1hw_DpA.aspx</ArtistUrl>
+<Artist>Maxine Nightingale</Artist>
+<Song>Right Back Where We Started From</Song>
+<SongRank>9</SongRank>
+</SearchLyricResult>
+<SearchLyricResult>
+<TrackId>0</TrackId>
+<LyricChecksum>e1b7efbde40d11f9c9bd6fd85a5ca411</LyricChecksum>
+<LyricId>3546</LyricId>
+<SongUrl>http://www.chartlyrics.com/8a4Wxh_i-EaGT7e62W9Bsg/The+Race.aspx</SongUrl>
+<ArtistUrl>http://www.chartlyrics.com/8a4Wxh_i-EaGT7e62W9Bsg.aspx</ArtistUrl>
+<Artist>Yello</Artist>
+<Song>The Race</Song>
+<SongRank>9</SongRank>
+</SearchLyricResult>
+<SearchLyricResult>
+<TrackId>0</TrackId>
+<LyricChecksum>667586e3c95fbc7994730b7fcd1b37a6</LyricChecksum>
+<LyricId>6421</LyricId>
+<SongUrl>http://www.chartlyrics.com/ZKio7tr8AkaVaTirRG3s1g/On+the+Sunny+Side+of+the+Street.aspx</SongUrl>
+<ArtistUrl>http://www.chartlyrics.com/ZKio7tr8AkaVaTirRG3s1g.aspx</ArtistUrl>
+<Artist>Louis Armstrong</Artist>
+<Song>On the Sunny Side of the Street</Song>
+<SongRank>9</SongRank>
+</SearchLyricResult>
+<SearchLyricResult>
+<TrackId>0</TrackId>
+<LyricChecksum>3bc53911de4f3a5dd34afefd0c332c4f</LyricChecksum>
+<LyricId>2715</LyricId>
+<SongUrl>http://www.chartlyrics.com/HR4xLKNd-0-kblcpgbWEnw/Right+Thurr.aspx</SongUrl>
+<ArtistUrl>http://www.chartlyrics.com/HR4xLKNd-0-kblcpgbWEnw.aspx</ArtistUrl>
+<Artist>Chingy</Artist>
+<Song>Right Thurr</Song>
+<SongRank>9</SongRank>
+</SearchLyricResult>
+<SearchLyricResult>
+<TrackId>0</TrackId>
+<LyricChecksum>5546943aaf61ddf54f771f537a84d83a</LyricChecksum>
+<LyricId>6270</LyricId>
+<SongUrl>http://www.chartlyrics.com/Tpv5PyQ41ECKywFHxurpSA/Magic.aspx</SongUrl>
+<ArtistUrl>http://www.chartlyrics.com/Tpv5PyQ41ECKywFHxurpSA.aspx</ArtistUrl>
+<Artist>Pilot</Artist>
+<Song>Magic</Song>
+<SongRank>9</SongRank>
+</SearchLyricResult>
+<SearchLyricResult xsi:nil="true"/>
+</ArrayOfSearchLyricResult>
