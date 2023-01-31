@@ -20,10 +20,10 @@ public class lirefichierXML {
  corp du DefaltHandler*/
             DefaultHandler handler = new DefaultHandler() {
 
-                boolean bnom = false;
-                boolean bprenom = false;
-                boolean bmobile = false;
-                boolean bemail = false;
+                boolean bLyricId = false;
+                boolean bArtist = false;
+                boolean bSong = false;
+                boolean bSongRank = false;
 
                 /*cette méthode est invoquée à chaque fois que parser rencontre
                 une balise ouvrante '<' */
@@ -31,19 +31,19 @@ public class lirefichierXML {
                                          String qName,Attributes attributes) throws SAXException{
 
                     if (qName.equalsIgnoreCase("LyricId")) {
-                        bnom = true;
+                        bLyricId = true;
                     }
 
                     if (qName.equalsIgnoreCase("Artist")) {
-                        bprenom = true;
+                        bArtist = true;
                     }
 
                     if (qName.equalsIgnoreCase("Song")) {
-                        bmobile = true;
+                        bSong = true;
                     }
 
                     if (qName.equalsIgnoreCase("SongRank")) {
-                        bemail = true;
+                        bSongRank = true;
                     }
                 }
 
@@ -53,19 +53,19 @@ public class lirefichierXML {
                                        String qName) throws SAXException {
 
                     if (qName.equalsIgnoreCase("LyricId")) {
-                        bnom = false;
+                        bLyricId = false;
                     }
 
                     if (qName.equalsIgnoreCase("Artist")) {
-                        bprenom = false;
+                        bArtist = false;
                     }
 
                     if (qName.equalsIgnoreCase("Song")) {
-                        bmobile = false;
+                        bSong = false;
                     }
 
                     if (qName.equalsIgnoreCase("SongRank")) {
-                        bemail = false;
+                        bSongRank = false;
                     }
                 }
 
@@ -73,34 +73,34 @@ public class lirefichierXML {
                 public void characters(char ch[], int start,
                                        int length) throws SAXException {
 
-                    if (bnom) {
+                    if (bLyricId) {
                         System.out.println("LyricId : " +
                                 new String(ch, start, length));
-                        bnom = false;
+                        bLyricId = false;
                     }
 
-                    if (bprenom) {
+                    if (bArtist) {
                         System.out.println("Artist : " +
                                 new String(ch, start, length));
-                        bprenom = false;
+                        bArtist = false;
                     }
 
-                    if (bmobile) {
+                    if (bSong) {
                         System.out.println("Song : " +
                                 new String(ch, start, length));
-                        bmobile = false;
+                        bSong = false;
                     }
 
-                    if (bemail) {
+                    if (bSongRank) {
                         System.out.println("SongRank : " +
                                 new String(ch, start, length));
-                        bemail = false;
+                        bSongRank = false;
                     }
                 }
 
             };
 
-            saxParser.parse("query1.xml", handler);
+            saxParser.parse("C:\\Users\\dell\\Desktop\\L2\\S2\\Projet initiation génie logiciel\\equipe_ad_pigl_lyricsapp\\src\\main\\resources\\fichiers xml\\query1.xml", handler);
 
         } catch (Exception e) {
             e.printStackTrace();
