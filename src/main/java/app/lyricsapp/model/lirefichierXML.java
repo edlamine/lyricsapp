@@ -30,19 +30,19 @@ public class lirefichierXML {
                 public void startElement(String uri, String localName,
                                          String qName,Attributes attributes) throws SAXException{
 
-                    if (qName.equalsIgnoreCase("nom")) {
+                    if (qName.equalsIgnoreCase("LyricId")) {
                         bnom = true;
                     }
 
-                    if (qName.equalsIgnoreCase("prenom")) {
+                    if (qName.equalsIgnoreCase("Artist")) {
                         bprenom = true;
                     }
 
-                    if (qName.equalsIgnoreCase("mobile")) {
+                    if (qName.equalsIgnoreCase("Song")) {
                         bmobile = true;
                     }
 
-                    if (qName.equalsIgnoreCase("email")) {
+                    if (qName.equalsIgnoreCase("SongRank")) {
                         bemail = true;
                     }
                 }
@@ -52,19 +52,19 @@ public class lirefichierXML {
                 public void endElement(String uri, String localName,
                                        String qName) throws SAXException {
 
-                    if (qName.equalsIgnoreCase("nom")) {
+                    if (qName.equalsIgnoreCase("LyricId")) {
                         bnom = false;
                     }
 
-                    if (qName.equalsIgnoreCase("prenom")) {
+                    if (qName.equalsIgnoreCase("Artist")) {
                         bprenom = false;
                     }
 
-                    if (qName.equalsIgnoreCase("mobile")) {
+                    if (qName.equalsIgnoreCase("Song")) {
                         bmobile = false;
                     }
 
-                    if (qName.equalsIgnoreCase("email")) {
+                    if (qName.equalsIgnoreCase("SongRank")) {
                         bemail = false;
                     }
                 }
@@ -74,25 +74,25 @@ public class lirefichierXML {
                                        int length) throws SAXException {
 
                     if (bnom) {
-                        System.out.println("Nom : " +
+                        System.out.println("LyricId : " +
                                 new String(ch, start, length));
                         bnom = false;
                     }
 
                     if (bprenom) {
-                        System.out.println("Prénom : " +
+                        System.out.println("Artist : " +
                                 new String(ch, start, length));
                         bprenom = false;
                     }
 
                     if (bmobile) {
-                        System.out.println("Mobile : " +
+                        System.out.println("Song : " +
                                 new String(ch, start, length));
                         bmobile = false;
                     }
 
                     if (bemail) {
-                        System.out.println("Email : " +
+                        System.out.println("SongRank : " +
                                 new String(ch, start, length));
                         bemail = false;
                     }
@@ -100,7 +100,7 @@ public class lirefichierXML {
 
             };
 
-            saxParser.parse("exemple.xml", handler);
+            saxParser.parse("query1.xml", handler);
 
         } catch (Exception e) {
             e.printStackTrace();
