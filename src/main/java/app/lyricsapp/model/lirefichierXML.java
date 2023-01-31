@@ -80,7 +80,7 @@ public class lirefichierXML {
                     }
 
                     if (bArtist) {
-                        System.out.println("Artist  : " +
+                        System.out.println("Artist   : " +
                                 new String(ch, start, length));
                         bArtist = false;
                     }
