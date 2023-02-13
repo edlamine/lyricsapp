@@ -1,18 +1,18 @@
 package app.lyricsapp.model;
 
-public class lyric{
-    private int TrackId;
+public class Lyric {
+    private String TrackId;
     private String LyricChecksum;
-    private int LyricId;
+    private String LyricId;
     private String LyricSong;
     private String LyricArtist;
     private String  LyricUrl;
-    private int LyricRank;
+    private String LyricRank;
     private String LyricCovertArtUrl;
     private String LyricCorrectUrl;
     private String Lyric;
 
-    public lyric( String LyricCovertArtUrl, String LyricCorrectUrl, String Lyric, int TrackId, String LyricChecksum, int LyricId,String LyricSong,String LyricArtist,String LyricUrl,int LyricRank){
+    public Lyric(String LyricCovertArtUrl, String LyricCorrectUrl, String Lyric, String TrackId, String LyricChecksum, String LyricId, String LyricSong, String LyricArtist, String LyricUrl, String LyricRank){
         this.TrackId = TrackId;
         this.LyricChecksum = LyricChecksum;
         this.LyricId = LyricId;
@@ -25,20 +25,20 @@ public class lyric{
         this.Lyric= Lyric;
         }
 
-    public int getLyricId() {
+    public String getLyricId() {
         return LyricId;
     }
 
     public void setLyricId(int lyricId) {
-        LyricId = lyricId;
+        LyricId = String.valueOf(lyricId);
     }
 
-    public int getTrackId() {
+    public String getTrackId() {
         return TrackId;
     }
 
     public void setTrackId(int trackId) {
-        TrackId = trackId;
+        TrackId = String.valueOf(trackId);
     }
 
     public String getLyricChecksum() {
@@ -65,12 +65,12 @@ public class lyric{
         LyricArtist = lyricArtist;
     }
 
-    public int getLyricRank() {
+    public String getLyricRank() {
         return LyricRank;
     }
 
     public void setLyricRank(int lyricRank) {
-        LyricRank = lyricRank;
+        LyricRank = String.valueOf(lyricRank);
     }
 
     public String getLyricUrl() {
@@ -103,5 +103,21 @@ public class lyric{
 
     public void setLyric(String lyric) {
         Lyric = lyric;
+    }
+
+    @Override
+    public String toString() {
+        return "Lyric{" +
+                "TrackId=" + TrackId + '\n' +
+                ", LyricChecksum='" + LyricChecksum + '\n' +
+                ", LyricId='" + LyricId + '\n' +
+                ", LyricSong='" + LyricSong + '\n' +
+                ", LyricArtist='" + LyricArtist + '\n' +
+                ", LyricUrl='" + LyricUrl + '\n' +
+                ", LyricRank='" + LyricRank + '\n' +
+                ", LyricCovertArtUrl='" + LyricCovertArtUrl + '\n' +
+                ", LyricCorrectUrl='" + LyricCorrectUrl + '\n' +
+                ", Lyric='" + Lyric + '\n' +
+                '}';
     }
 }

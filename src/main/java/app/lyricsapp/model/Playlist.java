@@ -3,13 +3,13 @@ package app.lyricsapp.model;
 import java.util.ArrayList;
 public class Playlist {
     private String playlistName;
-    private ArrayList<song> songs;
+    private ArrayList<Song> songs;
     public Playlist (String playlistName){
         this.playlistName = playlistName;
-        this.songs = new ArrayList<song>();
+        this.songs = new ArrayList<Song>();
 
     }
-    public void addMusic (song song) throws AddMusicException {
+    public void addMusic (Song song) throws AddMusicException {
 
         if (songs.contains(song)){
             throw new AddMusicException(song.getTitle(), song.getAuthor());
@@ -26,7 +26,7 @@ public class Playlist {
         return playlistName;
     }
 
-    public ArrayList<song> getSongs() {
+    public ArrayList<Song> getSongs() {
         return songs;
     }
 }
