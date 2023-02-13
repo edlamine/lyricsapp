@@ -11,9 +11,13 @@ import javax.xml.parsers.ParserConfigurationException;
 import java.io.IOException;
 import java.net.URLEncoder;
 import java.nio.charset.StandardCharsets;
+import java.util.ArrayList;
 
 public class SearchLyricText {
     public static void searchLyricText(String lyrics) throws IOException, SAXException, ParserConfigurationException {
+
+        ArrayList<Song> toPrint = new ArrayList<>();
+
         int TrackId = 0;
         int SongRank = 0;
         String Artist = null;
@@ -69,7 +73,13 @@ public class SearchLyricText {
                     SongRank = Integer.parseInt(newNodeList.item(j).getTextContent());
                 }
             }
-            System.out.println(new Song(TrackId, LyricChecksum, LyricId, SongUrl, ArtistUrl, Artist, song, SongRank));
+            Song music = new Song(TrackId, LyricChecksum, LyricId, SongUrl, ArtistUrl, Artist, song, SongRank);
+            if(!toPrint.contains(music)){
+                toPrint.add(music);
+            }
+        }
+        for(Song songToPrint : toPrint){
+            System.out.println(songToPrint);
         }
     }
 }

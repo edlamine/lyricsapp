@@ -108,7 +108,7 @@ public class Lyric {
     @Override
     public String toString() {
         return "Lyric{" +
-                "TrackId=" + TrackId + '\n' +
+                "TrackId= " + TrackId + '\n' +
                 ", LyricChecksum='" + LyricChecksum + '\n' +
                 ", LyricId='" + LyricId + '\n' +
                 ", LyricSong='" + LyricSong + '\n' +

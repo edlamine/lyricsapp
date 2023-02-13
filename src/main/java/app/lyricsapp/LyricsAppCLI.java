@@ -24,7 +24,6 @@ public class LyricsAppCLI {
                 System.out.println("Veuillez entrer le titre de votre chanson \n");
                 Scanner scanner2 = new Scanner(System.in);
                 String titre = scanner2.nextLine();
-                //SearchLyricDirect.searchLyricDirect(artist, titre);
                 SearchLyricDirect.searchLyricDirect(artist,titre);
             }
 
