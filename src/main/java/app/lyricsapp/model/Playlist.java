@@ -1,0 +1,32 @@
+package app.lyricsapp.model;
+
+import java.util.ArrayList;
+public class Playlist {
+    private String playlistName;
+    private ArrayList<song> songs;
+    public Playlist (String playlistName){
+        this.playlistName = playlistName;
+        this.songs = new ArrayList<song>();
+
+    }
+    public void addMusic (song song) throws AddMusicException {
+
+        if (songs.contains(song)){
+            throw new AddMusicException(song.getTitle(), song.getAuthor());
+
+        }
+        else {
+            songs.add(song);
+        }
+    }
+    public void deleteMusic (int pos){
+        songs.remove(pos);
+    }
+    public String getPlaylistName() {
+        return playlistName;
+    }
+
+    public ArrayList<song> getSongs() {
+        return songs;
+    }
+}

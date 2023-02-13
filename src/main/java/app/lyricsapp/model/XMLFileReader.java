@@ -1,4 +1,4 @@
-package app.lyricsapp;
+package app.lyricsapp.model;
 
 import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
@@ -16,8 +16,8 @@ public class XMLFileReader{
             //Obtenir une instance de l'objet parser
             SAXParser saxParser = spfactory.newSAXParser();
 
- /*les trois méthodes sont déclarées dans le
- corp du DefaltHandler*/
+            /*les trois méthodes sont déclarées dans le
+            corp du DefaltHandler*/
             DefaultHandler handler = new DefaultHandler() {
 
                 boolean bTrackId = false;

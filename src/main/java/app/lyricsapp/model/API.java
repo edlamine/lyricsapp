@@ -1,4 +1,4 @@
 package app.lyricsapp.model;
 
-public class Dom {
+public class API {
 }
