@@ -11,7 +11,7 @@ public class LyricsApp extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("/app/lyricsapp/view/lyricsapp1.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("/app/lyricsapp/view/lyricsapp.fxml"));
         primaryStage.setTitle("LyricsApp");
         /*GridPane grid = new GridPane();
         grid.setPadding(new Insets(10, 10, 10, 10));
