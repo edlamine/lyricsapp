@@ -1,10 +1,6 @@
-# FoodApp
+LyricsApp is a Java-based application that allows users to search for songs by title, artist, or lyrics. The app uses Chart Lyrics API, which provides access to a vast database of song information.
+Features
 
-Ceci est le projet de base pour l'UE Projet: initiation génie logiciel.
-
-Vous devrez développer le logiciel de zéro afin de construire 
-une application de recherche de paroles de chansons.
-
-Team 2:
-Oughlis Tikinas
-Zeghar Mohamed Lamine
+- Search for songs by title, artist, or lyrics
+- View song information, including artist name, album, and release date
+- Save favorite songs for future reference
